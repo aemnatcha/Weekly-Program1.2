@@ -1,15 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    int n;
+  int n;
 
-    printf("Enter an integer\n");
-    scanf("%d", &n);
+  printf("Input an integer\n");
+  scanf("%d", &n);
 
-    if (n % 2 == 0)
-        printf("Even\n");
-    else
-        printf("Odd\n");
+  n%2 == 0 ? printf("Even\n") : printf("Odd\n");
 
-    return 0;
+  return 0;
 }
